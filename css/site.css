@@ -1,0 +1,137 @@
+body {
+    background-color: #0e1116d8;
+}
+
+a {
+    text-decoration: none;
+    padding-right: .5rem;
+}
+
+.description {
+    color: whitesmoke !important;
+}
+
+#principal {
+    box-shadow: 0px 0px 20px 10px rgba(148, 137, 109, 0.651);
+}
+
+.card-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-optical-sizing: unset;
+}
+
+.img {
+    padding-top: 5%;
+    background-image: url("../sources/images/bg.jpg") !important;
+    background-size: 100%;
+    background-origin: content-box;
+    background-position-y: bottom;
+}
+
+.imagen {
+    width: 15%;
+    height: 15%;
+    border-radius: 70% 70% 70% 70%;
+    border: .5rem;
+    border-style: solid;
+}
+
+.imganim {
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-name: animimg;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animimg {
+    from {
+        border-color-top: yellow;
+        border-color: black;
+    }
+    to {
+        border-color: yellow;
+        border-color-top: black;
+    }
+}
+
+.contenedor {
+    width: 15%;
+    height: 10%;
+    position: fixed;
+    left: 0px;
+}
+
+.botonF1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: #F44336;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    margin-right: 16px;
+    margin-top: 1%;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-size: 36px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: .3s;
+}
+
+span {
+    transition: .5s;
+}
+
+.botonF1:hover span {
+    transform: rotate(360deg);
+}
+
+.botonF1:active {
+    transform: scale(1.1);
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: none;
+    color: #FFF;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    font-size: 28px;
+    outline: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 26px;
+    transform: scale(0);
+}
+
+.botonF2 {
+    background: #2196F3;
+    margin-top: 90px;
+    transition: 0.5s;
+}
+
+.botonF3 {
+    background: #673AB7;
+    margin-top: 140px;
+    transition: 0.7s;
+}
+
+.botonF4 {
+    background: #009688;
+    margin-top: 175px;
+    transition: 0.9s;
+}
+
+.botonF5 {
+    background: #FF5722;
+    margin-top: 220px;
+    transition: 0.99s;
+}
+
+.animacionVer {
+    transform: scale(1);
+}
